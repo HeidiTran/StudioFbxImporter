@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AbstractNodeBuilder">
+    <Position X="14.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAACIAABgAAEAAAAAACAAAAADAAQUAQCAAA+AA=</HashCode>
+      <FileName>AbstractNodeBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DzMaterialFactory">
+    <Position X="8.5" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgIACAAAQIAEEAAABAAAASAAAAAAACAAABAIEAA=</HashCode>
+      <FileName>DzMaterialFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DzMeshNodeBuilder">
+    <Position X="11.5" Y="6.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="DzMeshNodeBuilder::UVInformation" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DzMeshNodeBuilder.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAAgAAAEAAABAAAAAAAABAAAAAAAAAAAACAwAUQAAAA=</HashCode>
+      <FileName>DzMeshNodeBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DzNoOpBuilder">
+    <Position X="16.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>DzNoOpBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DzNullNodeBuilder">
+    <Position X="14" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAwAAAAAAA=</HashCode>
+      <FileName>DzNullNodeBuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FbxToDazImporter">
+    <Position X="10.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAgAAAAAAgCEAAAAAAAAIAAACAIAAADAAAAAAAAA=</HashCode>
+      <FileName>FbxToDazImporter.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mNodeBuilder" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LongSummary">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LongSummary.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShortSummary">
+    <Position X="4.5" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAAAAAAAAAAAAAAAAARAAAAAAAQAAAAAAQIACAAAA=</HashCode>
+      <FileName>ShortSummary.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Summary">
+    <Position X="4.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AICABAAAAAACAAAAAEAARAAAAAAACAAAAABUAAAAAAg=</HashCode>
+      <FileName>Summary.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SummarySingleton">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AYhAAAAkAEEAAAACAABCAIQAABQCAByCQyAAAgigTAA=</HashCode>
+      <FileName>SummarySingleton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VerboseSummary">
+    <Position X="7" Y="4" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIAAAEABAAAAAAAAAAAAAAAAAgAAKAAIAAAAAAAAAAA=</HashCode>
+      <FileName>VerboseSummary.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DzFbxImporterAction">
+    <Position X="8.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FbxImporterPluginAction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
